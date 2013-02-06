@@ -6,7 +6,7 @@ $admins = array (
 	'tyrael',
 );
 
-if (in_array($user, $admins)) {
+if (in_array(strtolower($user), $admins)) {
 	echo 'jenkins-admins';
 }
 
